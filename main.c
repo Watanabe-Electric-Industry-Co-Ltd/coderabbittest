@@ -11,5 +11,10 @@ int main() {
     // Print the current time
     printf("Current time: %s", timeString);
 
+    // print the UTC time
+    struct tm* utcTime = gmtime(&currentTime);
+    char* utcTimeString = asctime(utcTime);
+    printf("UTC time: %s", utcTimeString);
+
     return 0;
 }
