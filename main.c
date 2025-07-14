@@ -19,6 +19,9 @@ int main() {
     struct tm* utcTime = gmtime(&currentTime);
     char* utcTimeString = asctime(utcTime);
     printf("UTC time: %s", utcTimeString);
+    
+    // Print Good Bye
+    printf("Good Bye\n");
 
     return 0;
 }
