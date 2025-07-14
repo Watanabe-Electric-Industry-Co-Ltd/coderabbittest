@@ -4,7 +4,7 @@
 int main() {
 	
 	// Print Hello World
-    printf("Hello Woorld\n");
+    printf("Hello World\n");
 	
     // Get the current time
     time_t currentTime = time(NULL);
