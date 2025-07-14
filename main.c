@@ -2,6 +2,10 @@
 #include <time.h>
 
 int main() {
+	
+	// Print Hello World
+    printf("Hello World\n");
+	
     // Get the current time
     time_t currentTime = time(NULL);
 
