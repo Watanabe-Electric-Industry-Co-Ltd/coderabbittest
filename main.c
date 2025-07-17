@@ -3,6 +3,9 @@
 
 int main() {
 	
+	// Print Hello World
+    printf("Hello Worrld\n");
+	
     // Get the current time
     time_t currentTime = time(NULL);
 
